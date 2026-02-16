@@ -1,17 +1,23 @@
-# Log Analyzer (Brute-Force Detection Tool)
+# Log Analyzer (SOC Security Tool)
 
-A Python-based security tool that analyzes authentication logs, detects brute-force login attempts, and generates investigation reports.
-
-## Why I built this
-SOC analysts monitor logs to detect suspicious activity. This project simulates that workflow by parsing failed login attempts and flagging suspicious IP addresses.
+Python-based security log analyzer that detects brute-force login attacks and generates SOC-ready incident reports.
 
 ## Features
-- Counts failed login attempts per IP
-- Flags suspicious IPs using configurable threshold
-- Generates timestamped investigation report
-- Command-line interface support
 
-## Usage
+- Brute force detection
+- Threat severity scoring
+- MITRE ATT&CK mapping
+- JSON, CSV, and TXT reporting
+- Automated CI testing
+
+## Technologies
+
+- Python
+- pytest
+- GitHub Actions
+- Security log analysis
+
+## Example
 
 ```bash
-python3 log_analyzer.py sample.log --threshold 3
+python3 log_analyzer.py sample.log --threshold 4 --window-minutes 10
