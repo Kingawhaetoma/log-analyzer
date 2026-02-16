@@ -1,2 +1,0 @@
-ip,severity,count_in_window,window_minutes,rate_per_min,window_start,window_end
-192.168.1.10,MEDIUM,4,10,1.5,2026-02-16 00:01:10,2026-02-16 00:03:50
