@@ -1,3 +1,4 @@
+![Python CI](https://github.com/Kingawhaetoma/log-analyzer/actions/workflows/python-ci.yml/badge.svg)
 # Log Analyzer (SOC Security Tool)
 
 Python-based security log analyzer that detects brute-force login attacks and generates SOC-ready incident reports.
@@ -21,3 +22,4 @@ Python-based security log analyzer that detects brute-force login attacks and ge
 
 ```bash
 python3 log_analyzer.py sample.log --threshold 4 --window-minutes 10
+
