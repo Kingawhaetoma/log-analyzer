@@ -1,0 +1,11 @@
+Log Analyzer Report
+Time: 2026-02-16 01:00:37
+Log file: sample.log
+Threshold: 3
+
+Failed login attempts per IP:
+192.168.1.10: 4
+10.0.0.5: 2
+
+Suspicious IP addresses (failed attempts >= 3):
+192.168.1.10 -> 4 attempts
